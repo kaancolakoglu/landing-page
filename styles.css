@@ -1,0 +1,146 @@
+*, *::before, *:after {
+    font-family: Roboto, serif;
+    display: block;
+}
+
+.header-container, .introduction-container, .footer-container {
+    background-color: #1F2937;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary-text, .header-link-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-to-action-container, .signup-button {
+    background-color: #3882F6;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signup-button-1, .signup-button-2 {
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.signup-button-2 {
+    border-color: white;
+}
+
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.header-links {
+    display: flex;
+    gap: 15px;
+}
+
+.introduction-container {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    gap: 30px;
+}
+
+.introduction-right {
+    display: flex;
+    width: 600px;
+    height: 150px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+    gap: 100px;
+}
+
+.info-box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-color: #3882F6;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+}
+
+.info-1, .info-2, .info-3, .info-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+}
+
+.quote-container {
+    padding: 50px 200px;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    padding: 50px 125px;
+    border-radius: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+}
+
+.citation-author {
+    margin: 0 auto;
+}
+
+
+
+
